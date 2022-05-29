@@ -83,12 +83,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-.img img {
+.img img, canvas {
     max-width: 45vh;
     max-height: 60vh;
 }
 @media screen and (max-width: 600px) {
-    .img img {
+    .img img, canvas {
         max-width: 36vh;
         max-height: 46vh;
     }
